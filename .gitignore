@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/historical.db
+.streamlit/secrets.toml
+*.egg-info/
+.pytest_cache/

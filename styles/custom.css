@@ -1,0 +1,190 @@
+/* Meta Ads Dashboard - Custom Styles */
+
+/* ===== MAIN APP ===== */
+.stApp {
+    background-color: #f1f5f9;
+}
+
+h1 {
+    color: #0f172a !important;
+    font-weight: 800 !important;
+}
+
+h2, h3 {
+    color: #1e293b !important;
+    font-weight: 700 !important;
+}
+
+/* ===== SIDEBAR ===== */
+section[data-testid="stSidebar"] {
+    background-color: #ffffff !important;
+    border-right: 1px solid #e2e8f0;
+}
+
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
+    color: #0f172a !important;
+}
+
+section[data-testid="stSidebar"] .stMarkdown,
+section[data-testid="stSidebar"] .stMarkdown p,
+section[data-testid="stSidebar"] label,
+section[data-testid="stSidebar"] .stSelectbox label,
+section[data-testid="stSidebar"] .stSlider label,
+section[data-testid="stSidebar"] .stFileUploader label,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] div {
+    color: #334155 !important;
+}
+
+section[data-testid="stSidebar"] .stCaption,
+section[data-testid="stSidebar"] small {
+    color: #64748b !important;
+}
+
+/* Sidebar navigation links */
+section[data-testid="stSidebar"] a,
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] span {
+    color: #1e293b !important;
+    font-weight: 500 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] li:hover {
+    background-color: #f1f5f9 !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] [aria-selected="true"] {
+    background-color: #e0e7ff !important;
+    border-radius: 8px;
+}
+
+section[data-testid="stSidebar"] [data-testid="stSidebarNav"] [aria-selected="true"] span {
+    color: #4338ca !important;
+    font-weight: 700 !important;
+}
+
+/* Sidebar divider */
+section[data-testid="stSidebar"] hr {
+    border-color: #e2e8f0 !important;
+}
+
+/* ===== KPI CARDS ===== */
+div[data-testid="stMetric"] {
+    background: #ffffff;
+    padding: 16px 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+div[data-testid="stMetric"] label {
+    color: #64748b !important;
+    font-size: 0.8rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+div[data-testid="stMetric"] div[data-testid="stMetricValue"] {
+    color: #0f172a !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+}
+
+div[data-testid="stMetric"] div[data-testid="stMetricDelta"] svg {
+    color: inherit !important;
+}
+
+/* ===== TABS ===== */
+button[data-baseweb="tab"] {
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    color: #475569 !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #4338ca !important;
+}
+
+/* ===== DATA TABLE ===== */
+div[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+/* ===== ALERTS ===== */
+div[data-testid="stAlert"] {
+    border-radius: 10px;
+}
+
+/* ===== INSIGHT CARDS ===== */
+.insight-card-working {
+    background-color: #f0fdf4;
+    padding: 14px 18px;
+    border-radius: 10px;
+    border-left: 4px solid #16a34a;
+    margin: 8px 0;
+    color: #14532d;
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+.insight-card-not-working {
+    background-color: #fef2f2;
+    padding: 14px 18px;
+    border-radius: 10px;
+    border-left: 4px solid #dc2626;
+    margin: 8px 0;
+    color: #7f1d1d;
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+/* ===== SUGGESTION TEXT ===== */
+.suggestion-text {
+    background-color: #fffbeb;
+    border-left: 3px solid #f59e0b;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #78350f;
+    line-height: 1.5;
+}
+
+/* ===== BUTTONS ===== */
+button[kind="primary"] {
+    background-color: #4338ca !important;
+    border-color: #4338ca !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+button[kind="primary"]:hover {
+    background-color: #3730a3 !important;
+}
+
+/* ===== FILE UPLOADER ===== */
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] {
+    background-color: #f8fafc !important;
+    border: 2px dashed #cbd5e1 !important;
+    border-radius: 10px !important;
+    padding: 8px !important;
+}
+
+section[data-testid="stSidebar"] [data-testid="stFileUploader"] label {
+    color: #334155 !important;
+    font-weight: 600 !important;
+}
+
+/* ===== SELECTBOX / SLIDER ===== */
+section[data-testid="stSidebar"] [data-baseweb="select"] {
+    background-color: #f8fafc !important;
+    border-radius: 8px !important;
+}
+
+section[data-testid="stSidebar"] [data-baseweb="select"] * {
+    color: #1e293b !important;
+}
