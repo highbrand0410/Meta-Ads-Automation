@@ -19,7 +19,7 @@ from src.db import init_db, save_daily_snapshot
 
 # --- Page Config ---
 st.set_page_config(
-    page_title="Meta Meta Ads Dashboard",
+    page_title="Meta Ads Dashboard",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -35,7 +35,7 @@ init_db()
 
 # --- Sidebar ---
 with st.sidebar:
-    st.title("Meta Meta Ads")
+    st.title("Meta Ads")
     st.caption("Creative Performance Dashboard")
     st.divider()
 
@@ -172,7 +172,7 @@ if uploaded_file is not None:
 
 # --- Main page content ---
 if "df" not in st.session_state or st.session_state.df is None:
-    st.title("Meta Meta Ads Creative Performance Dashboard")
+    st.title("Meta Ads Creative Performance Dashboard")
     st.markdown("---")
 
     col1, col2, col3 = st.columns(3)
@@ -189,7 +189,7 @@ if "df" not in st.session_state or st.session_state.df is None:
     st.markdown("---")
     st.info("Upload a CSV file from the sidebar to get started.")
 else:
-    st.title("Meta Meta Ads Creative Performance Dashboard")
+    st.title("Meta Ads Creative Performance Dashboard")
     st.caption(f"Data uploaded: {st.session_state.get('upload_date', 'N/A')}")
     st.markdown("Use the sidebar navigation to explore detailed analysis pages.")
 
