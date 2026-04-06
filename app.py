@@ -19,7 +19,7 @@ from src.db import init_db, save_daily_snapshot
 
 # --- Page Config ---
 st.set_page_config(
-    page_title="WeRize Meta Ads Dashboard",
+    page_title="Meta Meta Ads Dashboard",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -35,7 +35,7 @@ init_db()
 
 # --- Sidebar ---
 with st.sidebar:
-    st.title("WeRize Meta Ads")
+    st.title("Meta Meta Ads")
     st.caption("Creative Performance Dashboard")
     st.divider()
 
@@ -94,7 +94,7 @@ with st.sidebar:
         st.session_state.age_threshold = age_threshold
 
     st.divider()
-    st.caption("WeRize Partner App | Meta Ads Analyzer")
+    st.caption("Meta Ads Creative Analyzer")
 
 
 def apply_filters(df: pd.DataFrame) -> pd.DataFrame:
@@ -172,7 +172,7 @@ if uploaded_file is not None:
 
 # --- Main page content ---
 if "df" not in st.session_state or st.session_state.df is None:
-    st.title("WeRize Meta Ads Creative Performance Dashboard")
+    st.title("Meta Meta Ads Creative Performance Dashboard")
     st.markdown("---")
 
     col1, col2, col3 = st.columns(3)
@@ -189,7 +189,7 @@ if "df" not in st.session_state or st.session_state.df is None:
     st.markdown("---")
     st.info("Upload a CSV file from the sidebar to get started.")
 else:
-    st.title("WeRize Meta Ads Creative Performance Dashboard")
+    st.title("Meta Meta Ads Creative Performance Dashboard")
     st.caption(f"Data uploaded: {st.session_state.get('upload_date', 'N/A')}")
     st.markdown("Use the sidebar navigation to explore detailed analysis pages.")
 

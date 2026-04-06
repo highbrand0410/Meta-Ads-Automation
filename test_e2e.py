@@ -17,10 +17,10 @@ from datetime import date
 SAMPLE_CSV = """Campaign name,Ad set name,Ad name,Amount spent (INR),Impressions,Reach,Link clicks,Results,3-second video plays,ThruPlays,Video plays at 25%,Video plays at 50%,Video plays at 75%,Video plays at 95%,Video watches at 100%,Post engagements
 BGL App Install,DSA Lookalike,BGL|DSA|Hn-Vid12-25Sep25,15000,120000,80000,1500,200,45000,12000,35000,25000,15000,8000,5000,3200
 BGL App Install,DSA Broad,BGL|DSA|En-Vid08-10Aug25,8000,60000,40000,800,90,20000,5000,14000,10000,6000,3000,1500,1800
-WeRize Conversion,LAL Purchase,WR|LAL|Hn-Img05-01Mar26,12000,90000,65000,1200,150,,,,,,,,2500
-WeRize Conversion,LAL Register,WR|LAL|En-Img11-15Feb26,5000,45000,30000,600,80,,,,,,,,1200
+Test Conversion,LAL Purchase,WR|LAL|Hn-Img05-01Mar26,12000,90000,65000,1200,150,,,,,,,,2500
+Test Conversion,LAL Register,WR|LAL|En-Img11-15Feb26,5000,45000,30000,600,80,,,,,,,,1200
 BGL App Install,Interest,BGL|INT|Hn-Vid15-01Mar26,20000,150000,100000,2000,350,55000,18000,42000,30000,20000,12000,7000,4500
-WeRize Conversion,Retarget,WR|RT|Hn-Img02-20Jul25,3000,25000,18000,300,25,,,,,,,,800
+Test Conversion,Retarget,WR|RT|Hn-Img02-20Jul25,3000,25000,18000,300,25,,,,,,,,800
 """
 
 print("=" * 60)

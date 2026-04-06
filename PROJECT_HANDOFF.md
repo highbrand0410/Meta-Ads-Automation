@@ -4,7 +4,7 @@
 `C:\Users\Rahul\Downloads\Claude Master\Meta_Automation`
 
 ## What This Is
-A Streamlit dashboard for **WeRize** that automates daily Meta Ads creative performance analysis. The user downloads CSV reports from Meta Ads Manager, uploads them to this dashboard, and gets automated metric computation, creative classification, status assignment, suggestions, and historical comparison.
+A Streamlit dashboard for **the company** that automates daily Meta Ads creative performance analysis. The user downloads CSV reports from Meta Ads Manager, uploads them to this dashboard, and gets automated metric computation, creative classification, status assignment, suggestions, and historical comparison.
 
 ## How to Run
 ```bash
@@ -154,6 +154,6 @@ No age/gender breakdowns in this format. Day-level breakdown only. Custom event 
 - Project folder: `C:\Users\Rahul\Downloads\Claude Master\Meta_Automation`
 - CSV test file: `C:\Users\Rahul\Downloads\Mar1-14.csv`
 - Currency: INR (Indian Rupees), symbol: INR
-- Company: WeRize (Partner App)
+- Company: the company (Partner App)
 - App type: Financial app (App Install + App Event campaigns)
 - The old folder `C:\Users\Rahul\Downloads\Meta_Automation` may still exist (couldn't delete due to session lock) — it's the same code, can be safely deleted.

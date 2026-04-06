@@ -12,7 +12,7 @@ from src.creative_age import extract_creative_date
 
 tests = [
     ("BGL|DSA|Hn-Vid12-25Sep25", "2025-09-25"),
-    ("WeRize|LAL|En-Img3-01Jan26", "2026-01-01"),
+    ("Test|LAL|En-Img3-01Jan26", "2026-01-01"),
     ("TestAd-15Mar2026", "2026-03-15"),
     ("NoDateHere", None),
 ]
